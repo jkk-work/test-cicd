@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "module": "commonjs",
+        "strict": false,
+        "types": ["node"],
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "removeComments": true,
+        "noImplicitThis": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+    },
+    "include": [
+        "src/**/*.ts",
+        "tests/**/*.ts"
+    ],
+    "exclude": [
+        "./**/*._dsl.ts",
+        "./**/*._instr.ts"
+    ]
+}
