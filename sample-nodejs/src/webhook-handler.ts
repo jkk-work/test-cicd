@@ -11,7 +11,7 @@ run; {
         req.on('end', () => {
             const params = JSON.parse(Buffer.concat(chunks).toString('utf8'));
             console.log(params);
-            res.end('');
+            res.end('')
         });
     });
 }
